@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almira Fashion</title>
+    <script src="https://kit.fontawesome.com/68faae5dfe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav class="navigation">
+        <a href="" class="logo"><img src="./img/logo.png" alt=""></a>
+        <ul class="menu">
+            <li><a href="./index.html" class="actice"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="./html/SiteMap.html"><i class="fa-solid fa-list"></i> SiteMap</a></li>
+            <li><a href="./html/Categories.html"><i class="fa-solid fa-seedling"></i> Categories</a></li>
+            <li><a href="./html/about_us.html"><i class="fa-solid fa-users"></i> About us</a></li> 
+            <li><a href="#"><i class="fa-solid fa-medal"></i> Beauty's Blog</a></li> 
+        </ul>
+        <form class="search">
+            <input type="text" placeholder="Tìm Kiếm" required="Vui lòng điền vào trường này!">
+            <button title="Tìm Kiếm"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div class="nav-btns">
+            <a href="./html/login.html" class="nav-user" id="form-open" title="Tài khoản"><i class="fa-solid fa-user"></i></a>
+            <a href="./html/Shopping_cart.html" class="nav-cart" title="Giỏ hàng"><i class="fa-solid fa-cart-shopping"><span class="numberCart">0</span></i></a>
+        </div>
+    </nav>
+    
+    <!-- ===========main============== -->
+    <section class="banner">       
+        <img src="./img/Banner.png" alt="">      
+    </section>
+
+
+    <section class="new-Categories">
+        <div class="new-categories-heading">
+            <h3>New Categories</h3>
+            <ul>
+                <li class="actice1" data-filter="all">All</li>
+                <li data-filter="Ao">Áo</li>
+                <li data-filter="quan">Quần & Jumsuit</li>
+                <li data-filter="vay">Chân Váy</li>
+                <li data-filter="dam">Đầm</li>
+                <!-- <li data-filter="phukien">Phụ Kiện Khác</li> -->
+            </ul>
+        </div>
+        <!-- =========container========= -->
+        <div class="new-Categories-container">
+            <div class="new-categories-box Ao">
+                <a href="./html/Product_detail.html" class="new-categories-img">
+                    <img src="./img/products/Áo/1.jpg" alt="">
+                    <span>Áo</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="./html/Product_detail.html" class="new-categories-title">Croptop</a>
+                    <span>220$</span>
+                </div>
+            </div>
+            <div class="new-categories-box Ao">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Áo/2.jpg" alt="">
+                    <span>Áo</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Croptop</a>
+                    <span>230$</span>
+                </div>
+            </div>
+            <div class="new-categories-box Ao">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Áo/3.jpg" alt="">
+                    <span>Áo</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Croptop</a>
+                    <span>290$</span>
+                </div>
+            </div>
+            <div class="new-categories-box Ao">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Áo/4.jpg" alt="">
+                    <span>Áo</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Croptop</a>
+                    <span>700$</span>
+                </div>
+            </div>
+            <div class="new-categories-box Ao">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Áo/6.jpg" alt="">
+                    <span>Áo</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Croptop</a>
+                    <span>105$</span>
+                </div>
+            </div>
+            <div class="new-categories-box Ao">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Áo/7.jpg" alt="">
+                    <span>Áo</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Croptop</a>
+                    <span>260$</span>
+                </div>
+            </div>
+            <div class="new-categories-box Ao">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Áo/8.jpg" alt="">
+                    <span>Áo</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Croptop</a>
+                    <span>250$</span>
+                </div>
+            </div>
+            <div class="new-categories-box quan">
+                <a href="../html/Product_detail.html" class="new-categories-img">
+                    <img src="./img/products/Quần/1.jpg" alt="">
+                    <span>Quần & Jumsuit</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Quần</a>
+                    <span>500$</span>
+                </div>
+            </div>
+            <div class="new-categories-box quan">
+                <a href="../html/Product_detail.html" class="new-categories-img">
+                    <img src="./img/products/Quần/2.jpg" alt="">
+                    <span>Quần & Jumsuit</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Quần</a>
+                    <span>450$</span>
+                </div>
+            </div>
+            <div class="new-categories-box quan">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Quần/3.jpg" alt="">
+                    <span>Quần & Jumsuit</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Quần</a>
+                    <span>2000$</span>
+                </div>
+            </div>
+            <div class="new-categories-box quan">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Quần/4.jpg" alt="">
+                    <span>Quần & Jumsuit</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Quần</a>
+                    <span>1000$</span>
+                </div>
+            </div>
+            <div class="new-categories-box quan">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Quần/5.jpg" alt="">
+                    <span>Quần & Jumsuit</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Quần</a>
+                    <span>115$</span>
+                </div>
+            </div>
+            <div class="new-categories-box quan">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Quần/6.jpg" alt="">
+                    <span>Quần & Jumsuit</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Quần</a>
+                    <span>114$</span>
+                </div>
+            </div>
+            <div class="new-categories-box quan">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Quần/7.jpg" alt="">
+                    <span>Quần & Jumsuit</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Quần</a>
+                    <span>113$</span>
+                </div>
+            </div>
+            <div class="new-categories-box dam">
+                <a href="../html/Product_detail.html" class="new-categories-img">
+                    <img src="./img/products/Đầm/1.jpg" alt="">
+                    <span>Đầm</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Đầm</a>
+                    <span>333$</span>
+                </div>
+            </div>
+            <div class="new-categories-box dam">
+                <a href="../html/Product_detail.html" class="new-categories-img">
+                    <img src="./img/products/Đầm/7.jpg" alt="">
+                    <span>Đầm</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Đầm</a>
+                    <span>225$</span>
+                </div>
+            </div>
+            <div class="new-categories-box dam">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Đầm/2.jpg" alt="">
+                    <span>Đầm</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Đầm</a>
+                    <span>170$</span>
+                </div>
+            </div>
+            <div class="new-categories-box dam">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Đầm/3.jpg" alt="">
+                    <span>Đầm</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Đầm</a>
+                    <span>200$</span>
+                </div>
+            </div>
+            <div class="new-categories-box dam">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Đầm/4.jpg" alt="">
+                    <span>Đầm</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Đầm</a>
+                    <span>100$</span>
+                </div>
+            </div>
+            <div class="new-categories-box dam">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Đầm/5.jpg" alt="">
+                    <span>Đầm</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Đầm</a>
+                    <span>79$</span>
+                </div>
+            </div>
+            <div class="new-categories-box dam">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Đầm/6.jpg" alt="">
+                    <span>Đầm</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Đầm</a>
+                    <span>36$</span>
+                </div>
+            </div>
+            <div class="new-categories-box vay">
+                <a href="./html/Product_detail.html" class="new-categories-img">
+                    <img src="./img/products/Chân váy/1.jpg" alt="">
+                    <span>Chân Váy</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Chân Váy</a>
+                    <span>17$</span>
+                </div>
+            </div>
+            <div class="new-categories-box vay">
+                <a href="./html/Product_detail.html" class="new-categories-img">
+                    <img src="./img/products/Chân váy/2.jpg" alt="">
+                    <span>Chân Váy</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Chân Váy</a>
+                    <span>120$</span>
+                </div>
+            </div>
+            <div class="new-categories-box vay">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Chân váy/3.jpg" alt="">
+                    <span>Chân Váy</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Chân Váy</a>
+                    <span>60$</span>
+                </div>
+            </div>
+            <div class="new-categories-box vay">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Chân váy/4.jpg" alt="">
+                    <span>Chân Váy</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Chân Váy</a>
+                    <span>40$</span>
+                </div>
+            </div>
+            <div class="new-categories-box vay">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Chân váy/5.jpg" alt="">
+                    <span>Chân Váy</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Chân Váy</a>
+                    <span>55$</span>
+                </div>
+            </div>
+            <div class="new-categories-box vay">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Chân váy/6.jpg" alt="">
+                    <span>Chân Váy</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Chân Váy</a>
+                    <span>25$</span>
+                </div>
+            </div>
+            <div class="new-categories-box vay">
+                <a href="#" class="new-categories-img">
+                    <img src="./img/products/Chân váy/7.jpg" alt="">
+                    <span>Chân Váy</span>
+                </a>
+                <div class="new-categories-text">
+                    <a href="#" class="new-categories-title">Chân Váy</a>
+                    <span>30$</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================== popular============-->
+    <section class="popular-product">
+
+        <div class="popular-heading">
+            <h3>Popular Products</h3>
+            <a href="#">All</a>
+        </div>
+        <div class="popular-container">
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/1.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Đầm</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">200$</span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/2.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Đầm</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">500$</span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/3.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Đầm</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">250$</span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/4.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Đầm</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">300$</span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/5.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Đầm</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">280$</span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/6.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Đầm</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">234$</span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/7.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Đầm</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">456$</span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/8.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Đầm</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">275$</span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/9.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Đầm</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">350$</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== sale===============-->
+    <section class="sale">
+        <div class="sale-banner-img">
+            <img src="./img/banneSale.jpg" alt="">
+        </div>
+        <div class="sale-heading">
+            <h3>Sale Products</h3>
+            <a href="#">All</a>
+        </div>
+        <div class="sale-container">
+            <div class="sale-box">
+                <a href="#" class="sale-box-img">
+                    <img src="./img/popular/1.jpg" alt="">
+                </a>
+                <div class="sale-box-text">
+                    <a href="#">Mùa hè tươi mát cùng Almira</a>
+                    <span class="sale-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="sale-price">200$ <del>300$</del></span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/2.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Mùa hè tươi mát cùng Almira</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">500$ <del>650$</del></span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/3.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Mùa hè tươi mát cùng Almira</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">250$ <del>400$</del></span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/4.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Mùa hè tươi mát cùng Almira</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">300$ <del>500$</del></span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/5.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Mùa hè tươi mát cùng Almira</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">280$ <del>450$</del></span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/6.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Mùa hè tươi mát cùng Almira</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">234$ <del>333$</del></span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/7.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Mùa hè tươi mát cùng Almira</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">456$ <del>567$</del></span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="./img/popular/8.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Mùa hè tươi mát cùng Almira</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">275$ <del>1000$</del></span>
+                </div>
+            </div>
+            <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                    <img src="../img/popular/9.jpg" alt="">
+                </a>
+                <div class="popular-box-text">
+                    <a href="#">Mùa hè tươi mát cùng Almira</a>
+                    <span class="popular-p">Đầm cho mùa hè nhẹ nhàng<span>
+                    <span class="popular-price">350$ <del>700$</del></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================blog===================== -->
+    <section class="blog">
+        <div class="blog-heading">
+            <h3>Almira's Blog</h3>
+        </div>
+        <div class="blog-container">
+            <div class="blog-box">
+                <a href="#" class="blog-img">
+                    <img src="./img/blog/blog1.png" alt="">
+                </a>
+                <div class="blog-text">
+                    <a href="#" class="blog-title">Readmore</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <a href="#" class="blog-img">
+                    <img src="./img/blog/2.png" alt="">
+                </a>
+                <div class="blog-text">
+                    <a href="#" class="blog-title">Readmore</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <a href="#" class="blog-img">
+                    <img src="./img/blog/3.jpg" alt="">
+                </a>
+                <div class="blog-text">
+                    <a href="#" class="blog-title">Readmore</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <a href="#" class="blog-img">
+                    <img src="./img/blog/4.jpg" alt="">
+                </a>
+                <div class="blog-text">
+                    <a href="#" class="blog-title">Readmore</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <a href="#" class="blog-img">
+                    <img src="./img/blog/6.jpg" alt="">
+                </a>
+                <div class="blog-text">
+                    <a href="#" class="blog-title">Readmore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================footer================ -->
+   <footer>
+        <div class="footer-container">
+            <div class="footer-company-box">
+                <a href="" class="logo">
+                    <img src="./img/logo.png" alt="">
+                </a>
+                <p>With Alrira Fashion to be more beautiful every day</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/Almira.vn.Official/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="link-box">
+                <strong>CHÍNH SÁCH BÁN HÀNG</strong>
+                <ul>
+                    <li><a href="#">Chính sách đổi hàng</a></li>
+                    <li><a href="#">Chính sách bảo hành</a></li>
+                    <li><a href="#">Chính sách hội viên</a></li>
+                    <li><a href="#">Chính sách giao nhận</a></li>
+                    <li><a href="#">Hướng dẫn mua hàng</a></li>
+                </ul>
+            </div>
+            <div class="link-box">
+                <strong>TƯ VẤN</strong>
+                <ul>
+                    <li><a href="#">Tư vấn phong cách</a></li>
+                    <li><a href="#">Tư vấn chọn size</a></li>
+                    <li><a href="#">Hỏi đáp</a></li>
+                </ul>
+            </div>
+            <div class="link-box">
+                <strong>GIỚI THIỆU</strong>
+                <ul>
+                    <li><a href="#">Về Almira Fashion</a></li>
+                    <li><a href="#">Về thành viên</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="#">Tin tức</a></li>
+                    <li><a href="#">Câu chuyện thương hiệu</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-al">
+            <center>© 2023 Almira Fashion. All rights reserved</center>
+        </div>
+        <!-- <div class="footer-bottom">
+            <center>© 2022 K&G Vietnam. All Rights Reserved</center>
+        </div> -->
+   </footer>
+    <!-- ===================script sign/create============== -->
+    <script src="../js/script.js"></script>
+    <!--==================jquery=========  -->
+    <script src="../js/jquery-3.6.4.js"></script>
+
+    <!-- ==============script============= -->
+    <script>
+        var selector = '.new-categories-heading li';
+        $(selector).on('click',function(){
+            $(selector).removeClass('actice1')
+            $(this).addClass('actice1');
+        });
+        $(document).ready(function(){
+            $('.new-categories-heading li').click(function(){
+                const value = $(this).attr('data-filter');
+                if(value == 'all'){
+                    $('.new-categories-box').show('1000');
+                }
+                else{
+                    $('.new-categories-box').not('.'+value).hide('1000');
+                    $('.new-categories-box').filter('.'+value).show('1000');
+                }
+            });
+        });
+    </script>
+    <script src="../js/product-detail.js"></script>
+</body>
+</html>

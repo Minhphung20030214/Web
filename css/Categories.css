@@ -1,0 +1,104 @@
+.banner-Categories{
+    margin: auto;
+}
+.banner-Categories img{
+    width: 100%;
+    margin: auto;
+}
+/* ===================== */
+.new-Categories{
+    max-width: 1200px;
+    width: 90%;
+    margin: 50px auto;
+}
+.new-categories-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(177, 212, 243);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.new-categories-heading h3{
+    font-size: 1.8rem;
+    color: #424141;
+    font-weight: 800;
+}
+.new-categories-heading ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.new-categories-heading li{
+    padding: 2px 20px;
+    border-radius: 5px;
+    margin: 0px 3px;
+    color: #333333;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.new-categories-heading li.actice1{
+    background-color: orange;
+}
+.new-categories-box{
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #f1f1f1;
+}
+.new-categories-img{
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+.new-categories-img span{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: #feded1;
+    color: #333333;
+    padding: 3px 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.new-categories-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.new-categories-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+}
+.new-categories-text span{
+    color: rgb(179, 38, 163);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.new-categories-text a{
+    color: #424141;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+}
+.new-Categories-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+}
